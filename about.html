@@ -1,0 +1,155 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>ABV IIITM Gwalior</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<div id="preloader"></div>
+
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/ins_logo.png"></a>
+		<div class="nav-links" id="navLinks">
+		<i class="fa fa-times" onclick="hideMenu()"></i>
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="people1.html">PEOPLE</a></li>
+			<!------<li><a href="https://karyashala-vp-iiitm.web.app/">KARYASHALA</a></li>------>
+			<li><a href="">RESEARCH</a></li>
+			<li><a href="">IMPORTANT LINKS</a></li>
+			<li><a href="">CONTACT</a></li>
+		</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i> 
+		</nav>
+		<h1>About Us</h1>
+	
+	</section>
+
+    <!------about us content------>
+    <section class="about-us content">
+
+            <div class="about-col">
+                <h1>DEPARTMENT OF ELECTRICAL AND ELECTRONICS ENGINEERING</h1>
+                <p><li>The department of Electrical and Electronics Engineering is one of the major departments being created in 2022 to achieve the mission and vision of the institute.
+					 The Department is currently in its development phase and engaged in teaching and research in the areas of power system and control, VLSI, Wireless communication, signal processing, and antennas. 
+					</li><br><li>At present the department offers M.Tech in VLSI and PhD programs in different areas such as VLSI, Signal processing, wireless communication, and power system and control. 
+					 The Faculty members of the department are also engaged in outreach activities by organizing workshops, conferences and academic collaboration. Further, many Government sponsored research projects are also being undertaken by the faculty members of the department.
+					The Vision of the Department is to achieve Global excellence through Electrical and Electronics Engineering education in knowledge Economy.</li></p>
+            </div>    
+            <div class="about-col">
+                <h1>MISSION</h1>
+                <p><li> Teaching, research and extension education in alignment with the new-age technologies and solutions.</li>
+					<li> Design and Development of integrative engineering and technology solutions with cross functional perspectives. </li>
+					<li> Nurturing, training and skilling the young minds for innovative engineering applications and solutions, and entrepreneurial mindset. </li>
+					
+					</p>
+            </div>  
+            <div class="about-col">
+                <h1>LIST OF SPONSORED PROJECTS</h1>
+                <p>
+					<table id="table">
+						<tr>
+						  <th>TITLE</th>
+						  <th>NAME OF THE PI</th>
+						  <th>NAME OF CO-PIs</th>
+						  <th>FUNDING AGENCY</th>
+						  <th>PROJECT STATUS</th>
+						</tr>
+						<tr>
+						  <td>Machine Learning Aided<br> Self Sustainable Future<br> Wireless Networks</td>
+						  <td>Dr. Binod Prasad</td>
+						  <td>NA</td>
+						  <td>SERB-DST, GOI</td>
+						  <td>Ongoing</td>
+						</tr>
+						<tr>
+							<td>Assistive Learning Device for<br> Children with Hearing Loss</td>
+							<td>Dr. Vinal Patel</td>
+							<td>NA</td>
+							<td>SERB-DST, GOI</td>
+							<td>Ongoing</td>
+						</tr>
+					  </table>
+				</p>
+            </div>
+            <div class="about-col">
+                <h1>LIST OF OUTREACH ACTIVITY</h1>
+                <p><table id="table">
+					<tr>
+						<th>ACTIVITY</th>
+						<th>DURATION</th>
+					  </tr>
+					<tr>
+						<td>Karyashala Sponsored by SERB<br> on Application of Machine<br> Learning in Audio Signal Processing</td>
+						<td>5-11 Sept., 2022</td>
+					</tr>
+					<tr>
+						<td>Karyashala sponsored by SERB<br> on Design and Fabrication of<br> Hybrid/Flexible Antennas for<br> 6G and beyond Applications</td></li>
+						<td>12-18 Sept., 2022</td>
+					</tr>
+				</table>
+			</p>
+            
+			</div>
+			
+			<div class="about-col">
+                <h1>LIST OF SELECTED PUBLICATIONS</h1>
+                <p>
+			</p>
+            
+			</div>  
+			
+
+    </section>
+
+
+
+
+<!------CONTACT US ------->
+
+<section class="cta">
+	<h1>CONNECT WITH US</h1>
+	<a href="" class="hero-btn">CONTACT US</a>
+	
+</section>
+
+
+<!------Footer------>
+
+<section class="footer">
+
+</section>
+
+<!------Javascript for toggle menu------>
+<script>
+	var navLinks= document.getElementById("navLinks");
+	
+	function showMenu(){
+		navLinks.style.right="0";
+	}
+	function hideMenu(){
+		navLinks.style.right="-200px";
+	}
+
+
+
+</script>
+
+	<script>
+		var loader=document.getElementById("preloader");
+
+		window.addEventListener("load", function(){
+			loader.style.display="none";
+		})
+	</script>
+</body>
+</html>
